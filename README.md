@@ -1,46 +1,43 @@
-Expense Tracker (Python)
+# Expense Tracker (Python)
 
-Simple personal finance tracker made in Python with GUI.
+Simple personal finance tracker made in **Python** with a **GUI**.
 
-Features
+---
 
-Add expenses
+## Features
 
-Remove expenses
+- Add expenses
+- Remove expenses
+- Categories
+- Monthly total calculation
+- Data persistence (JSON database)
+- Graphical interface (**Tkinter**)
 
-Categories
+---
 
-Monthly total calculation
+## Technologies
 
-Data persistence (JSON database)
+- Python
+- Object-Oriented Programming (dataclasses, enums)
+- File handling (JSON)
+- Tkinter GUI
 
-Graphical interface (Tkinter)
+---
 
+## Purpose
 
+This project was created to practice intermediate Python concepts and simulate a real application structure, including:
 
-Technologies
+- Models (`models.py`)  
+- Services (`services.py`)  
+- Database handling (`database.py`)  
+- GUI (`gui.py`)  
 
-Python
+---
 
-OOP (dataclasses, enums)
+## How to run
 
-File handling (JSON)
+Open a terminal in the project folder and run:
 
-Tkinter GUI
-
-Purpose
-
-This project was created to practice intermediate Python concepts and simulate a real application structure (models, services, database separation).
-
-How to run
+```bash
 python gui.py
-
-Future improvements
-
-Filters by category
-
-Monthly reports
-
-Charts
-
-Budget alerts
