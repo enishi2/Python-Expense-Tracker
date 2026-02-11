@@ -43,6 +43,21 @@ def filter_by_category(category: Category) -> list[Expense]:
     expenses = load_expenses()
     return [e for e in expenses if e.category == category]
 
+def search_expenses(keyword: str = "", category: Category = None):
+    """
+    Retorna lista de despesas que correspondem à keyword na descrição e/ou à categoria.
+    Se não passar nenhum parâmetro, retorna todos.
+    """
+    results = get_all_expenses()
+    if keyword:
+        results = [e for e in results if keyword.lower() in e.description.lower()]
+    if category:
+        results = [e for e in results if e.category == category]
+    return results
+
+
+
+
 
 if __name__ == "__main__":
     from datetime import datetime

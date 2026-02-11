@@ -1,1 +1,58 @@
-[]
+[
+    {
+        "id": 1,
+        "amount": 6.0,
+        "category": "Transport",
+        "description": "carro",
+        "date": "2026-02-11T12:46:43.776613"
+    },
+    {
+        "id": 2,
+        "amount": 200.0,
+        "category": "Food",
+        "description": "Mercado",
+        "date": "2026-02-11T13:03:13.269285"
+    },
+    {
+        "id": 3,
+        "amount": 90.0,
+        "category": "Leisure",
+        "description": "bar",
+        "date": "2026-02-11T13:03:37.691558"
+    },
+    {
+        "id": 4,
+        "amount": 110.0,
+        "category": "Bills",
+        "description": "internet",
+        "date": "2026-02-11T13:04:28.096500"
+    },
+    {
+        "id": 5,
+        "amount": 90.0,
+        "category": "Food",
+        "description": "mercado",
+        "date": "2026-02-11T13:10:55.573254"
+    },
+    {
+        "id": 6,
+        "amount": 50.0,
+        "category": "Leisure",
+        "description": "bar",
+        "date": "2026-02-11T13:11:23.774976"
+    },
+    {
+        "id": 7,
+        "amount": 30.0,
+        "category": "Food",
+        "description": "ifood",
+        "date": "2026-02-11T13:12:19.154829"
+    },
+    {
+        "id": 8,
+        "amount": 50.0,
+        "category": "Transport",
+        "description": "onibus",
+        "date": "2026-02-11T14:18:04.183796"
+    }
+]
